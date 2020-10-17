@@ -20,8 +20,7 @@ Object.values(item).forEach(value => {
 // Creating a function to filter the table results based on date
 
 function filtertable() {
-   // Prevent the page from refreshing
-   //d3.event.preventDefault();
+
   
     // Get the date entered in the datetime field
     date = d3.select("#datetime").property("value");
