@@ -50,9 +50,10 @@ function filtertable() {
         alert("No Data Found for that Date Please Pick a New One")
     }
    
-// Find the button on the web page and tell it to run the function
-// when clicked
-d3.select("#filter-btn").on("click", filtertable)
+
 
 
 }
+// Find the button on the web page and tell it to run the function
+// when clicked
+d3.select("#filter-btn").on("click", filtertable)
